@@ -127,6 +127,8 @@ export type CartItem = {
   quantity: number;
 }
 
+export type PaymentMethod = "Cash" | "UPI (GPay / Other apps)" | "Card";
+
 export type Order = {
   id: number;
   orderId: string;
@@ -134,8 +136,8 @@ export type Order = {
   customerName: string;
   customerPhone: string;
   customerAddress: string;
+  paymentMethod: PaymentMethod;
   items: CartItem[];
   total: number;
   createdAt: string;
 }
-

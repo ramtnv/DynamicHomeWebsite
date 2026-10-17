@@ -18,6 +18,7 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: ReactNode }): ReactNode {
   const [items, setItems] = useState<CartItem[]>([]);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     try {
@@ -27,16 +28,19 @@ export function CartProvider({ children }: { children: ReactNode }): ReactNode {
       }
     } catch {
       // ignore malformed stored cart
+    } finally {
+      setHydrated(true);
     }
   }, []);
 
   useEffect(() => {
+    if (!hydrated) return;
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
     } catch {
       // ignore storage errors
     }
-  }, [items]);
+  }, [hydrated, items]);
 
   const itemCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -105,4 +109,3 @@ export function useCart(): CartContextType {
   }
   return context;
 }
-

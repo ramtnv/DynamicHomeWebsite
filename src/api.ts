@@ -1,4 +1,4 @@
-import type { Product, SiteConfig, CartItem } from "./types";
+import type { Product, SiteConfig, CartItem, PaymentMethod } from "./types";
 
 export class ApiError extends Error {
   constructor(message: string, readonly status: number) {
@@ -49,8 +49,18 @@ export const api = {
   product: (slug: string) => request<Product>(`/api/products/${encodeURIComponent(slug)}`),
   contact: (form: { name: string; email: string; subject: string; message: string; website: string }) =>
     request<{ message: string }>("/api/contact", { method: "POST", body: JSON.stringify(form) }),
-  order: (order: { customerName: string; customerPhone: string; customerAddress: string; items: CartItem[]; total: number }) =>
-    request<{ id: number; orderId: string; serialNumber: string }>("/api/orders", { method: "POST", body: JSON.stringify(order) }),
+  order: (order: { customerName: string; customerPhone: string; customerAddress: string; paymentMethod: PaymentMethod; items: CartItem[]; total: number }) =>
+    request<{ id: number; orderId: string; serialNumber: string }>("/api/orders", {
+      method: "POST",
+      body: JSON.stringify({
+        name: order.customerName,
+        phone: order.customerPhone,
+        address: order.customerAddress,
+        paymentMethod: order.paymentMethod,
+        items: order.items,
+        total: order.total,
+      }),
+    }),
   login: (email: string, password: string) =>
     request<{ authenticated: boolean; csrfToken: string }>("/api/auth/login", {
       method: "POST",

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { Menu, ShoppingCart, X } from "lucide-react";
 import { api } from "./api";
-import { CartProvider } from "./CartContext";
+import { CartProvider, useCart } from "./CartContext";
 import {
   AboutPage,
   CartPage,
@@ -92,6 +92,7 @@ function LoadingState({ error }: { error: string }) {
 
 function SiteLayout({ config }: { config: SiteConfig }) {
   const location = useLocation();
+  const { itemCount } = useCart();
   const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => applyTheme(config), [config]);
   useEffect(() => setMenuOpen(false), [location.pathname]);
@@ -115,7 +116,7 @@ function SiteLayout({ config }: { config: SiteConfig }) {
             ))}
           </nav>
           <Link to="/products" className="header-link">Shop the collection <span aria-hidden="true">↗</span></Link>
-          <Link to="/cart" className="header-link"><ShoppingCart size={16} /> Cart <span>0</span></Link>
+          <Link to="/cart" className="header-link"><ShoppingCart size={16} /> Cart <span>{itemCount}</span></Link>
         </div>
       </header>
       <main><Routes>

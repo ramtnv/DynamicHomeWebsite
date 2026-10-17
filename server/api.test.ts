@@ -243,6 +243,36 @@ test("admin security, draft publishing, products, contact form, and database per
   let publicProducts = await (await fetch(`${baseUrl}/api/products`)).json() as { id: number }[];
   assert.ok(publicProducts.some((item) => item.id === created.id));
 
+  const orderResponse = await fetch(`${baseUrl}/api/orders`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      name: "Test customer",
+      phone: "+91 98765 43210",
+      address: "123 Main Street, Test City",
+      paymentMethod: "UPI (GPay / Other apps)",
+      items: [{ productId: created.id, name: "Test ceramic cup", price: 22, image: "", quantity: 2 }],
+      total: 44,
+    }),
+  });
+  assert.equal(orderResponse.status, 201);
+  const placedOrder = await orderResponse.json() as { orderId: string; serialNumber: string };
+  assert.match(placedOrder.orderId, /^ATL-/);
+  assert.ok(placedOrder.serialNumber);
+  const invalidPaymentOrder = await fetch(`${baseUrl}/api/orders`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      name: "Test customer",
+      phone: "+91 98765 43210",
+      address: "123 Main Street, Test City",
+      paymentMethod: "Online",
+      items: [{ productId: created.id, name: "Test ceramic cup", price: 22, image: "", quantity: 1 }],
+      total: 22,
+    }),
+  });
+  assert.equal(invalidPaymentOrder.status, 400);
+
   const adminProducts = await (await fetch(`${baseUrl}/api/admin/products`, { headers: { cookie } })).json() as { id: number }[];
   const reorder = await fetch(`${baseUrl}/api/admin/products/order`, {
     method: "PUT",

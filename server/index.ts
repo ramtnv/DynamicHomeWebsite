@@ -345,7 +345,8 @@ app.post("/api/orders", (request, response) => {
     name: z.string().trim().min(2).max(100),
     phone: z.string().trim().min(5).max(80),
     address: z.string().trim().min(5).max(500),
-    items: z.array(orderItemSchema),
+    paymentMethod: z.enum(["Cash", "UPI (GPay / Other apps)", "Card"]),
+    items: z.array(orderItemSchema).min(1),
     total: z.number().finite().min(0),
   });
   const parsed = orderSchema.safeParse(request.body);
@@ -353,15 +354,15 @@ app.post("/api/orders", (request, response) => {
     response.status(400).json({ error: parsed.error.issues[0]?.message ?? "The order is invalid." });
     return;
   }
-  const { name, phone, address, items, total } = parsed.data;
+  const { name, phone, address, paymentMethod, items, total } = parsed.data;
   let orderId = `ATL-${Date.now()}-${randomBytes(2).toString("hex")}`;
   while (db.prepare("SELECT 1 FROM orders WHERE order_id = ?").get(orderId)) {
     orderId += randomBytes(2).toString("hex");
   }
   const serialNumber = randomBytes(4).toString("hex").toUpperCase();
   const result = db.prepare(
-    "INSERT INTO orders (order_id, serial_number, customer_name, customer_phone, customer_address, items_json, total) VALUES (?, ?, ?, ?, ?, ?, ?)",
-  ).run(orderId, serialNumber, name, phone, address, JSON.stringify(items), total);
+    "INSERT INTO orders (order_id, serial_number, customer_name, customer_phone, customer_address, items_json, total, payment_method) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+  ).run(orderId, serialNumber, name, phone, address, JSON.stringify(items), total, paymentMethod);
   response.status(201).json({ id: result.lastInsertRowid, orderId, serialNumber });
 });
 

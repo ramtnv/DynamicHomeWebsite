@@ -40,6 +40,7 @@ Set `NODE_ENV=production` and configure HTTPS at the hosting platform or reverse
 ## What is included
 
 - Public Home, Products, About Us, and Contact Us pages with mobile navigation, responsive product cards, search, category filtering, sorting, detail pages, accessible forms, and useful loading/error/empty states.
+- Compact product and cart grids with quantity controls, an iframe image preview, a checkout payment-preference dropdown (Cash, UPI, or Card; no payment is processed), and an order confirmation page with a downloadable PDF summary.
 - `/admin` dashboard with a separately routed login, environment-seeded Super Admin, bcrypt password hashes, opaque expiring HttpOnly/SameSite cookies, server-side session records, CSRF tokens, login/contact rate limits, and protected management routes.
 - General branding and SEO fields, logo/favicon upload and preview, draft/publish settings, live draft preview, five theme presets and custom colors, typography, button/card shape, shadows, spacing, and container width.
 - Editable, reorderable, and hideable homepage/About sections; configurable contact details and form success message.
@@ -49,6 +50,6 @@ Set `NODE_ENV=production` and configure HTTPS at the hosting platform or reverse
 
 ## Data and deployment notes
 
-The database schema is initialized and migrated at server startup in `server/db.ts`; back up `data/site.sqlite` and `data/uploads/` together. Public endpoints only read published website settings and active published products. Admin settings can be saved as a draft and explicitly published. Product visibility/publication changes apply immediately when saved. Payment processing is intentionally not included.
+The database schema is initialized and migrated at server startup in `server/db.ts`; back up `data/site.sqlite` and `data/uploads/` together. Public endpoints only read published website settings and active published products. Admin settings can be saved as a draft and explicitly published. Product visibility/publication changes apply immediately when saved. Orders retain the selected payment preference for identification only; payment processing is intentionally not included. Customers can download their order list as a PDF from the confirmation page.
 
 This project does not send contact messages by email, include cloud media storage, or configure a hosted database, CDN, or mail provider. Configure those external services before using the site at production scale. Keep `.env`, the SQLite database, and uploaded media out of source control and provide HTTPS in production.

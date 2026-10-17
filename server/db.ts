@@ -67,10 +67,15 @@ db.exec(`
     customer_address TEXT NOT NULL,
     items_json TEXT NOT NULL,
     total REAL NOT NULL,
+    payment_method TEXT NOT NULL DEFAULT 'Cash',
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
   );
   CREATE INDEX IF NOT EXISTS orders_created_idx ON orders (created_at DESC);
 `);
+const orderColumns = db.prepare("PRAGMA table_info(orders)").all() as { name: string }[];
+if (!orderColumns.some((column) => column.name === "payment_method")) {
+  db.exec("ALTER TABLE orders ADD COLUMN payment_method TEXT NOT NULL DEFAULT 'Cash'");
+}
 const productColumns = db.prepare("PRAGMA table_info(products)").all() as { name: string }[];
 if (!productColumns.some((column) => column.name === "sort_order")) {
   db.exec("ALTER TABLE products ADD COLUMN sort_order INTEGER NOT NULL DEFAULT 0");
