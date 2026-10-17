@@ -1,0 +1,4 @@
+[ 1931460ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5174/uploads/b699c4f8f2e4edc20f6ddd66cb20a8ce.png:0
+[ 1931475ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5174/api/products:0
+[ 1931475ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5174/api/products:0
+[ 1931478ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5174/uploads/45e1a375e7b09327a9113dd9a7308ab7.png:0
