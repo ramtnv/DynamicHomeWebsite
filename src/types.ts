@@ -45,6 +45,14 @@ export type TeamMember = {
   enabled: boolean;
 };
 
+export type ProductPage = {
+  heading: string;
+  subheading: string;
+  description: string;
+  image: string;
+  sections: ContentSection[];
+};
+
 export type SiteConfig = {
   site: {
     companyName: string;
@@ -98,6 +106,7 @@ export type SiteConfig = {
       submit: string;
     };
   };
+  productPage: ProductPage;
 };
 
 export type Product = {
@@ -125,7 +134,7 @@ export type CartItem = {
   price: number;
   image: string;
   quantity: number;
-}
+};
 
 export type PaymentMethod = "Cash" | "UPI (GPay / Other apps)" | "Card";
 
@@ -140,4 +149,4 @@ export type Order = {
   items: CartItem[];
   total: number;
   createdAt: string;
-}
+};

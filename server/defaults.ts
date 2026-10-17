@@ -45,6 +45,14 @@ export type TeamMember = {
   enabled: boolean;
 };
 
+export type ProductPage = {
+  heading: string;
+  subheading: string;
+  description: string;
+  image: string;
+  sections: ContentSection[];
+};
+
 export type SiteConfig = {
   site: {
     companyName: string;
@@ -98,6 +106,7 @@ export type SiteConfig = {
       submit: string;
     };
   };
+  productPage: ProductPage;
 };
 
 const lightTheme: Theme = {
@@ -152,7 +161,7 @@ export const defaultConfig: SiteConfig = {
     primaryLink: "/products",
     secondaryLabel: "Our story",
     secondaryLink: "/about",
-    banner: "Good things, made to last. Free shipping on orders over $100.",
+    banner: "Good things, made to last. Free shipping on orders over .",
     sections: [
       {
         id: "featured",
@@ -241,6 +250,13 @@ export const defaultConfig: SiteConfig = {
       message: "Your message",
       submit: "Send your note",
     },
+  },
+  productPage: {
+    heading: "Our Products",
+    subheading: "Thoughtful pieces for everyday living",
+    description: "Discover our collection of carefully curated items",
+    image: "",
+    sections: [],
   },
 };
 
