@@ -115,8 +115,10 @@ function SiteLayout({ config }: { config: SiteConfig }) {
               <Link key={href} to={href} className={location.pathname === href ? "active" : ""} onClick={() => setMenuOpen(false)}>{label}</Link>
             ))}
           </nav>
-          <Link to="/products" className="header-link">Shop the collection <span aria-hidden="true">↗</span></Link>
-          <Link to="/cart" className="header-link"><ShoppingCart size={16} /> Cart <span>{itemCount}</span></Link>
+          <div style={{ display: "flex", flexDirection: "column", gap: 4, alignItems: "end" }}>
+            <Link to="/products" className="header-link">Shop the collection <span aria-hidden="true">↗</span></Link>
+            <Link to="/cart" className="header-link"><ShoppingCart size={16} /> Cart <span>{itemCount}</span></Link>
+          </div>
         </div>
       </header>
       <main><Routes>
