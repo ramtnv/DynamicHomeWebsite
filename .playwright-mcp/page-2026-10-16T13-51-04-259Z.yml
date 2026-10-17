@@ -1,0 +1,98 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "a. Atelier & Co." [ref=f3e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f3e7]: a.
+        - generic [ref=f3e8]: Atelier & Co.
+      - navigation "Main navigation" [ref=f3e9]:
+        - link "Home" [ref=f3e10] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=f3e11] [cursor=pointer]:
+          - /url: /products
+        - link "About us" [ref=f3e12] [cursor=pointer]:
+          - /url: /about
+        - link "Contact us" [ref=f3e13] [cursor=pointer]:
+          - /url: /contact
+      - link "Shop the collection" [ref=f3e14] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=f3e15]:
+    - generic [ref=f3e16]: Good things, made to last. Free shipping on orders over $100.
+    - generic [ref=f3e20]:
+      - generic [ref=f3e21]:
+        - generic [ref=f3e22]: Made for slower mornings
+        - heading [level=1] [ref=f3e24]:
+          - generic [ref=f3e25]: Make room for
+          - text: what matters.
+        - paragraph [ref=f3e26]: Thoughtful goods for everyday living.
+        - paragraph [ref=f3e27]: A considered collection of home essentials, crafted with honest materials and made to be part of your story for years to come.
+        - generic [ref=f3e28]:
+          - link "Explore the collection" [ref=f3e29] [cursor=pointer]:
+            - /url: /products
+          - link "Our story" [ref=f3e33] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=f3e36]:
+          - generic [ref=f3e37]: ✳
+          - generic [ref=f3e38]: Small batches, big heart.Always made with intention.
+      - generic [ref=f3e39]:
+        - img "A calm, warmly lit living space with thoughtful details" [ref=f3e40]
+        - generic [ref=f3e41]:
+          - generic [ref=f3e42]: Living, a little more intentionally
+          - generic [ref=f3e43]: 01 / 04
+        - generic [ref=f3e44]: Thoughtfullymade
+      - generic [aria-hidden] [ref=f3e49]: 01 04
+    - generic [ref=f3e51]:
+      - generic [ref=f3e52]: ✳
+      - paragraph [ref=f3e53]:
+        - text: Not more things.
+        - emphasis [ref=f3e54]: Better things.
+      - generic [ref=f3e55]: Objects for everyday rituals,made to feel like they belong.
+    - generic [ref=f3e56]:
+      - generic [ref=f3e57]:
+        - generic [ref=f3e58]:
+          - generic [ref=f3e59]: Little things, thoughtfully made
+          - heading "Considered pieces, made to stay" [level=2] [ref=f3e61]
+          - paragraph [ref=f3e62]: Thoughtful design. Honest materials. Everyday essentials that feel right at home.
+        - link "View everything" [ref=f3e63] [cursor=pointer]:
+          - /url: /products
+      - generic [ref=f3e66]:
+        - heading "Nothing here just yet" [level=3] [ref=f3e70]
+        - paragraph [ref=f3e71]: Try a different search or come back soon for something new.
+    - generic [ref=f3e72]:
+      - img "A little more intention, every day" [ref=f3e74]
+      - generic [ref=f3e75]:
+        - generic [ref=f3e76]: A slower kind of good
+        - heading "A little more intention, every day" [level=2] [ref=f3e78]
+        - paragraph [ref=f3e79]: We believe the best things are made slowly, used often, and loved for a long time.
+        - link "A little about us" [ref=f3e80] [cursor=pointer]:
+          - /url: /about
+      - generic [aria-hidden] [ref=f3e84]: ✳
+    - generic [ref=f3e85]:
+      - generic [ref=f3e86]: Thoughtfully sourced
+      - generic [ref=f3e91]: Made to last
+      - generic [ref=f3e98]: Little details, considered
+    - generic [ref=f3e102]:
+      - generic [ref=f3e103]: Find your everyday favorite
+      - heading [level=2] [ref=f3e104]:
+        - text: A few good things
+        - emphasis [ref=f3e105]: go a long way.
+      - link "Shop the collection" [ref=f3e106] [cursor=pointer]:
+        - /url: /products
+      - generic [ref=f3e110]: ✳
+  - contentinfo [ref=f3e111]:
+    - generic [ref=f3e112]:
+      - generic [ref=f3e113]:
+        - link "Atelier & Co." [ref=f3e114] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f3e115]: Made with care, for the everyday.
+      - generic [ref=f3e116]:
+        - link "Shop" [ref=f3e117] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=f3e118] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=f3e119] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=f3e120] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=f3e121]: © 2026 Atelier & Co.

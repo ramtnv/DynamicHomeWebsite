@@ -1,0 +1,86 @@
+- generic [ref=f2e2]:
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "Atelier & Co. home" [ref=f2e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e6]: a.
+        - generic [ref=f2e7]: Atelier & Co.
+      - button "Open navigation" [ref=f2e8]
+      - link "Shop the collection" [ref=f2e10] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=f2e11]:
+    - generic [ref=f2e12]: Good things, made to last. Free shipping on orders over $100.
+    - generic [ref=f2e16]:
+      - generic [ref=f2e17]:
+        - generic [ref=f2e18]: Made for slower mornings
+        - heading [level=1] [ref=f2e20]:
+          - generic [ref=f2e21]: Make room for
+          - text: what matters.
+        - paragraph [ref=f2e22]: Thoughtful goods for everyday living.
+        - paragraph [ref=f2e23]: A considered collection of home essentials, crafted with honest materials and made to be part of your story for years to come.
+        - generic [ref=f2e24]:
+          - link "Explore the collection" [ref=f2e25] [cursor=pointer]:
+            - /url: /products
+          - link "Our story" [ref=f2e29] [cursor=pointer]:
+            - /url: /about
+      - generic [ref=f2e32]:
+        - img "A calm, warmly lit living space with thoughtful details" [ref=f2e33]
+        - generic [ref=f2e34]:
+          - generic [ref=f2e35]: Living, a little more intentionally
+          - generic [ref=f2e36]: 01 / 04
+        - generic [ref=f2e37]: Thoughtfullymade
+    - generic [ref=f2e42]:
+      - generic [ref=f2e43]: ✳
+      - paragraph [ref=f2e44]:
+        - text: Not more things.
+        - emphasis [ref=f2e45]: Better things.
+      - generic [ref=f2e46]: Objects for everyday rituals,made to feel like they belong.
+    - generic [ref=f2e47]:
+      - generic [ref=f2e48]:
+        - generic [ref=f2e49]:
+          - generic [ref=f2e50]: Little things, thoughtfully made
+          - heading "Considered pieces, made to stay" [level=2] [ref=f2e52]
+          - paragraph [ref=f2e53]: Thoughtful design. Honest materials. Everyday essentials that feel right at home.
+        - link "View everything" [ref=f2e54] [cursor=pointer]:
+          - /url: /products
+      - generic [ref=f2e57]:
+        - heading "Nothing here just yet" [level=3] [ref=f2e61]
+        - paragraph [ref=f2e62]: Try a different search or come back soon for something new.
+    - generic [ref=f2e63]:
+      - img "A little more intention, every day" [ref=f2e65]
+      - generic [ref=f2e66]:
+        - generic [ref=f2e67]: A slower kind of good
+        - heading "A little more intention, every day" [level=2] [ref=f2e69]
+        - paragraph [ref=f2e70]: We believe the best things are made slowly, used often, and loved for a long time.
+        - link "A little about us" [ref=f2e71] [cursor=pointer]:
+          - /url: /about
+      - generic [aria-hidden] [ref=f2e75]: ✳
+    - generic [ref=f2e76]:
+      - generic [ref=f2e77]: Thoughtfully sourced
+      - generic [ref=f2e82]: Made to last
+      - generic [ref=f2e89]: Little details, considered
+    - generic [ref=f2e93]:
+      - generic [ref=f2e94]: Find your everyday favorite
+      - heading [level=2] [ref=f2e95]:
+        - text: A few good things
+        - emphasis [ref=f2e96]: go a long way.
+      - link "Shop the collection" [ref=f2e97] [cursor=pointer]:
+        - /url: /products
+      - generic [ref=f2e101]: ✳
+  - contentinfo [ref=f2e102]:
+    - generic [ref=f2e103]:
+      - generic [ref=f2e104]:
+        - link "Atelier & Co." [ref=f2e105] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f2e106]: Made with care, for the everyday.
+      - generic [ref=f2e107]:
+        - link "Shop" [ref=f2e108] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=f2e109] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=f2e110] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=f2e111] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=f2e112]: © 2026 Atelier & Co.

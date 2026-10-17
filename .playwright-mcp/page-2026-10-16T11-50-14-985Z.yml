@@ -1,0 +1,63 @@
+- generic [ref=f7e2]:
+  - banner [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "Smoke Test Atelier 1792151083047 home" [ref=f7e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f7e6]: a.
+        - generic [ref=f7e7]: Smoke Test Atelier 1792151083047
+      - button "Open navigation" [ref=f7e8]
+      - link "Shop the collection" [ref=f7e10] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=f7e11]:
+    - generic [ref=f7e12]:
+      - generic [ref=f7e13]:
+        - generic [ref=f7e14]: A little about us
+        - heading "A thoughtful way of living" [level=1] [ref=f7e16]
+        - paragraph [ref=f7e17]: "Atelier & Co. began with a simple idea: the objects we live with should be as considered as the lives we want to lead."
+        - generic [ref=f7e18]: ✳
+      - img "Warm, considered interior details in a home" [ref=f7e20]
+      - generic [ref=f7e21]:
+        - generic [ref=f7e22]:
+          - generic [ref=f7e23]: Where it all began
+          - heading [level=2] [ref=f7e25]:
+            - text: A simpler kindof
+            - emphasis [ref=f7e26]: good.
+        - paragraph [ref=f7e27]: Founded in 2018, we started as a small studio sharing a few useful, beautifully made pieces with our community. Today, we work with independent makers who share our belief in lasting quality and considered design.
+      - generic [ref=f7e28]:
+        - article [ref=f7e29]:
+          - text: "01"
+          - heading "Our mission" [level=3] [ref=f7e30]
+          - paragraph [ref=f7e31]: To make useful, beautiful things that bring a little more meaning to everyday life.
+        - article [ref=f7e32]:
+          - text: "02"
+          - heading "Our vision" [level=3] [ref=f7e33]
+          - paragraph [ref=f7e34]: A world where thoughtful design, responsible making, and everyday rituals belong together.
+        - article [ref=f7e35]:
+          - text: "03"
+          - heading "What we believe" [level=3] [ref=f7e36]
+          - paragraph [ref=f7e37]: Considered design · Honest materials · Made to last · People over pace
+      - generic [ref=f7e39]:
+        - generic [ref=f7e40]: Made with care
+        - heading "Good work, made together" [level=2] [ref=f7e42]
+        - paragraph [ref=f7e43]: We partner with small, independent workshops that care deeply about how things are made.
+      - generic [ref=f7e44]:
+        - generic [ref=f7e45]: Good things take good people.
+        - link "Come say hello" [ref=f7e46] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=f7e49]:
+    - generic [ref=f7e50]:
+      - generic [ref=f7e51]:
+        - link "Smoke Test Atelier 1792151083047" [ref=f7e52] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f7e53]: Made with care, for the everyday.
+      - generic [ref=f7e54]:
+        - link "Shop" [ref=f7e55] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=f7e56] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=f7e57] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=f7e58] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=f7e59]: © 2026 Smoke Test Atelier 1792151083047

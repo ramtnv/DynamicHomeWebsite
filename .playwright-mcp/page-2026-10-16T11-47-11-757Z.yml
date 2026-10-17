@@ -1,0 +1,59 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link "Smoke Test Atelier 1792151083047 home" [ref=f5e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e6]: a.
+        - generic [ref=f5e7]: Smoke Test Atelier 1792151083047
+      - navigation "Main navigation" [ref=f5e8]:
+        - link "Home" [ref=f5e9] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=f5e10] [cursor=pointer]:
+          - /url: /products
+        - link "About us" [ref=f5e11] [cursor=pointer]:
+          - /url: /about
+        - link "Contact us" [ref=f5e12] [cursor=pointer]:
+          - /url: /contact
+      - link "Shop the collection" [ref=f5e13] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=f5e14]:
+    - generic [ref=f5e15]:
+      - generic [ref=f5e16]:
+        - generic [ref=f5e17]: Useful things, lovely details
+        - heading [level=1] [ref=f5e19]:
+          - text: Good things for
+          - emphasis [ref=f5e20]: everyday living.
+        - paragraph [ref=f5e21]: Considered pieces for the moments that make a home feel like yours.
+      - generic [ref=f5e22]:
+        - generic "Product categories" [ref=f5e23]:
+          - button "All pieces" [ref=f5e24] [cursor=pointer]
+        - generic [ref=f5e25]:
+          - generic [ref=f5e26]:
+            - generic [ref=f5e27]: Search products
+            - textbox "Search products" [ref=f5e28]:
+              - /placeholder: Find something…
+          - generic [ref=f5e29]:
+            - generic [ref=f5e30]: Sort products
+            - combobox "Sort products" [ref=f5e31]:
+              - option "Featured" [selected]
+              - 'option "Price: low to high"'
+              - 'option "Price: high to low"'
+      - paragraph [ref=f5e32]: Finding the good things…
+      - generic "Loading products" [ref=f5e33]
+  - contentinfo [ref=f5e38]:
+    - generic [ref=f5e39]:
+      - generic [ref=f5e40]:
+        - link "Smoke Test Atelier 1792151083047" [ref=f5e41] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f5e42]: Made with care, for the everyday.
+      - generic [ref=f5e43]:
+        - link "Shop" [ref=f5e44] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=f5e45] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=f5e46] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=f5e47] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=f5e48]: © 2026 Smoke Test Atelier 1792151083047

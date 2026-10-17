@@ -1,0 +1,83 @@
+- generic [ref=f6e2]:
+  - banner [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - link "Smoke Test Atelier 1792151083047 home" [ref=f6e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f6e6]: a.
+        - generic [ref=f6e7]: Smoke Test Atelier 1792151083047
+      - button "Open navigation" [ref=f6e8]
+      - link "Shop the collection" [ref=f6e10] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=f6e11]:
+    - generic [ref=f6e12]:
+      - generic [ref=f6e13]:
+        - generic [ref=f6e14]: Good conversations start here
+        - heading "We'd love to hear from you" [level=1] [ref=f6e16]
+        - paragraph [ref=f6e17]: Questions about an order, a product, or just want to say hello? Our small team is happy to help.
+        - generic [ref=f6e18]: ✳
+      - generic [ref=f6e19]:
+        - generic [ref=f6e20]:
+          - generic [ref=f6e21]:
+            - generic [ref=f6e22]:
+              - text: Your name
+              - textbox "Your name" [ref=f6e23]:
+                - /placeholder: Jane Smith
+            - generic [ref=f6e24]:
+              - text: Email address
+              - textbox "Email address" [ref=f6e25]:
+                - /placeholder: jane@example.com
+          - generic [ref=f6e26]:
+            - text: What can we help with?
+            - textbox "What can we help with?" [ref=f6e27]:
+              - /placeholder: A question about an order…
+          - generic [ref=f6e28]:
+            - text: Your message
+            - textbox "Your message" [ref=f6e29]:
+              - /placeholder: Tell us a little more…
+          - generic [aria-hidden] [ref=f6e30]:
+            - text: Website
+            - textbox [ref=f6e31]
+          - generic [ref=f6e32]:
+            - button "Send your note" [ref=f6e33] [cursor=pointer]
+            - generic [ref=f6e37]: We usually reply within one business day.
+        - complementary [ref=f6e38]:
+          - generic [ref=f6e39]: A few helpful details
+          - generic [ref=f6e40]:
+            - generic [ref=f6e41]: Email
+            - link "hello@atelierandco.example" [ref=f6e42] [cursor=pointer]:
+              - /url: mailto:hello@atelierandco.example
+          - generic [ref=f6e43]:
+            - generic [ref=f6e44]: Phone
+            - link "+1 (555) 014-2280" [ref=f6e45] [cursor=pointer]:
+              - /url: tel:+15550142280
+          - generic [ref=f6e46]:
+            - generic [ref=f6e47]: Come by
+            - paragraph [ref=f6e48]: 42 Orchard Street Portland, OR 97205
+          - generic [ref=f6e49]:
+            - generic [ref=f6e50]: We're around
+            - paragraph [ref=f6e51]: Monday – Friday, 9am – 5pm
+          - generic [ref=f6e52]:
+            - link "Instagram" [ref=f6e53] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f6e60] [cursor=pointer]:
+              - /url: https://facebook.com
+      - generic [ref=f6e64]:
+        - generic [ref=f6e65]: Made with care, for the everyday.
+        - generic [ref=f6e66]: ✳
+  - contentinfo [ref=f6e67]:
+    - generic [ref=f6e68]:
+      - generic [ref=f6e69]:
+        - link "Smoke Test Atelier 1792151083047" [ref=f6e70] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f6e71]: Made with care, for the everyday.
+      - generic [ref=f6e72]:
+        - link "Shop" [ref=f6e73] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=f6e74] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=f6e75] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=f6e76] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=f6e77]: © 2026 Smoke Test Atelier 1792151083047

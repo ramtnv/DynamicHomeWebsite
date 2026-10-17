@@ -1,0 +1,110 @@
+- generic [ref=f3e28]:
+  - complementary [ref=f3e29]:
+    - link "a. Smoke Test Atelier 1792151083047 SUPER ADMIN" [ref=f3e30] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f3e31]: a.
+      - generic [ref=f3e32]:
+        - text: Smoke Test Atelier 1792151083047
+        - generic [ref=f3e33]: SUPER ADMIN
+    - navigation "Admin navigation" [ref=f3e34]:
+      - generic [ref=f3e35]:
+        - generic [ref=f3e36]: Workspace
+        - button "Overview" [ref=f3e37] [cursor=pointer]
+      - generic [ref=f3e44]:
+        - generic [ref=f3e45]: Website
+        - button "General settings" [ref=f3e46] [cursor=pointer]
+        - button "Theme & appearance" [ref=f3e51] [cursor=pointer]
+      - generic [ref=f3e59]:
+        - generic [ref=f3e60]: Pages
+        - button "Homepage" [ref=f3e61] [cursor=pointer]
+        - button "About us" [ref=f3e68] [cursor=pointer]
+        - button "Contact" [ref=f3e75] [cursor=pointer]
+      - generic [ref=f3e80]:
+        - generic [ref=f3e81]: Commerce
+        - button "Products 5" [ref=f3e82] [cursor=pointer]:
+          - generic [ref=f3e87]: Products
+          - generic [ref=f3e88]: "5"
+    - generic [ref=f3e89]:
+      - generic [ref=f3e95]:
+        - strong [ref=f3e96]: Secure workspace
+        - generic [ref=f3e97]: Only you can make changes
+      - button "Sign out" [ref=f3e98] [cursor=pointer]
+  - generic [ref=f3e102]:
+    - banner [ref=f3e103]:
+      - generic [ref=f3e104]:
+        - text: Workspace
+        - generic [ref=f3e105]: /
+        - strong [ref=f3e106]: Overview
+      - generic [ref=f3e107]:
+        - generic [ref=f3e108]: Website live
+        - link "View site" [ref=f3e110] [cursor=pointer]:
+          - /url: /
+    - main [ref=f3e114]:
+      - generic [ref=f3e115]:
+        - generic [ref=f3e116]:
+          - generic [ref=f3e117]: Your little corner of the internet
+          - heading "Overview" [level=1] [ref=f3e118]
+          - paragraph [ref=f3e119]: A clear view of your website and the good things inside.
+        - generic [ref=f3e120]:
+          - button "Preview" [ref=f3e121] [cursor=pointer]
+          - button "Save draft" [ref=f3e125] [cursor=pointer]
+      - generic [ref=f3e130]:
+        - generic [ref=f3e131]: You are editing a draft. Changes go live only when published.
+        - button "Publish changes" [ref=f3e133] [cursor=pointer]
+      - generic [ref=f3e136]:
+        - generic [ref=f3e137]:
+          - generic [ref=f3e138]:
+            - generic [ref=f3e140]:
+              - heading "A little snapshot" [level=2] [ref=f3e141]
+              - paragraph [ref=f3e142]: The good things happening across your website.
+            - generic [ref=f3e143]:
+              - generic [ref=f3e144]:
+                - strong [ref=f3e150]: "5"
+                - generic [ref=f3e151]: Total products
+              - generic [ref=f3e152]:
+                - strong [ref=f3e159]: "5"
+                - generic [ref=f3e160]: Visible on your site
+              - generic [ref=f3e161]:
+                - strong [ref=f3e169]: Nature Green
+                - generic [ref=f3e170]: Current draft theme
+          - generic [ref=f3e171]:
+            - generic [ref=f3e173]:
+              - heading "Quick edits" [level=2] [ref=f3e174]
+              - paragraph [ref=f3e175]: Jump straight to the things you may want to update.
+            - generic [ref=f3e176]:
+              - button "Branding & site details Company name, logo, and SEO details" [ref=f3e177] [cursor=pointer]:
+                - generic [ref=f3e182]:
+                  - strong [ref=f3e183]: Branding & site details
+                  - generic [ref=f3e184]: Company name, logo, and SEO details
+              - button "Colors & visual style Brand colors, buttons, and typography" [ref=f3e187] [cursor=pointer]:
+                - generic [ref=f3e195]:
+                  - strong [ref=f3e196]: Colors & visual style
+                  - generic [ref=f3e197]: Brand colors, buttons, and typography
+              - button "Homepage story Hero message and homepage sections" [ref=f3e200] [cursor=pointer]:
+                - generic [ref=f3e207]:
+                  - strong [ref=f3e208]: Homepage story
+                  - generic [ref=f3e209]: Hero message and homepage sections
+              - button "Your collection Add, edit, and publish products" [ref=f3e212] [cursor=pointer]:
+                - generic [ref=f3e218]:
+                  - strong [ref=f3e219]: Your collection
+                  - generic [ref=f3e220]: Add, edit, and publish products
+        - complementary [ref=f3e223]:
+          - generic [ref=f3e224]:
+            - generic [ref=f3e226]:
+              - heading "Your website" [level=2] [ref=f3e227]
+              - paragraph [ref=f3e228]: A little look at the published site.
+            - generic [ref=f3e229]:
+              - generic [ref=f3e230]: a. Smoke Test Atelier 1792151083047
+              - generic [ref=f3e237]:
+                - strong [ref=f3e238]: Atelier & Co. — Thoughtful Goods
+                - generic [ref=f3e239]: Your latest changes are live
+          - generic [ref=f3e240]:
+            - heading "A gentle reminder" [level=2] [ref=f3e243]
+            - generic [ref=f3e244]:
+              - text: ✳
+              - paragraph [ref=f3e245]: Small updates keep things feeling fresh. Your drafts are safely saved until you choose to publish.
+              - button "Tend to your homepage" [ref=f3e246] [cursor=pointer]
+      - generic [ref=f3e249]:
+        - text: Thoughtfully made with
+        - generic [ref=f3e250]: ✳
+        - text: · Smoke Test Atelier 1792151083047 admin

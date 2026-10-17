@@ -1,0 +1,109 @@
+- generic [ref=f2e30]:
+  - complementary [ref=f2e31]:
+    - link "a. Atelier & Co. SUPER ADMIN" [ref=f2e32] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f2e33]: a.
+      - generic [ref=f2e34]:
+        - text: Atelier & Co.
+        - generic [ref=f2e35]: SUPER ADMIN
+    - navigation "Admin navigation" [ref=f2e36]:
+      - generic [ref=f2e37]:
+        - generic [ref=f2e38]: Workspace
+        - button "Overview" [ref=f2e39] [cursor=pointer]
+      - generic [ref=f2e46]:
+        - generic [ref=f2e47]: Website
+        - button "General settings" [ref=f2e48] [cursor=pointer]
+        - button "Theme & appearance" [ref=f2e53] [cursor=pointer]
+      - generic [ref=f2e61]:
+        - generic [ref=f2e62]: Pages
+        - button "Homepage" [ref=f2e63] [cursor=pointer]
+        - button "About us" [ref=f2e70] [cursor=pointer]
+        - button "Contact" [ref=f2e77] [cursor=pointer]
+      - generic [ref=f2e82]:
+        - generic [ref=f2e83]: Commerce
+        - button "Products 4" [ref=f2e84] [cursor=pointer]:
+          - generic [ref=f2e89]: Products
+          - generic [ref=f2e90]: "4"
+    - generic [ref=f2e91]:
+      - generic [ref=f2e97]:
+        - strong [ref=f2e98]: Secure workspace
+        - generic [ref=f2e99]: Only you can make changes
+      - button "Sign out" [ref=f2e100] [cursor=pointer]
+  - generic [ref=f2e104]:
+    - banner [ref=f2e105]:
+      - button "Open navigation" [ref=f2e106]
+      - generic [ref=f2e110]:
+        - text: Workspace
+        - generic [ref=f2e111]: /
+        - strong [ref=f2e112]: Overview
+      - link "View site" [ref=f2e114] [cursor=pointer]:
+        - /url: /
+    - main [ref=f2e118]:
+      - generic [ref=f2e119]:
+        - generic [ref=f2e120]:
+          - generic [ref=f2e121]: Your little corner of the internet
+          - heading "Overview" [level=1] [ref=f2e122]
+          - paragraph [ref=f2e123]: A clear view of your website and the good things inside.
+        - generic [ref=f2e124]:
+          - button "Preview" [ref=f2e125] [cursor=pointer]
+          - button "Save draft" [ref=f2e129] [cursor=pointer]
+      - generic [ref=f2e134]:
+        - generic [ref=f2e135]: You are editing a draft. Changes go live only when published.
+        - button "Publish changes" [ref=f2e137] [cursor=pointer]
+      - generic [ref=f2e140]:
+        - generic [ref=f2e141]:
+          - generic [ref=f2e142]:
+            - generic [ref=f2e144]:
+              - heading "A little snapshot" [level=2] [ref=f2e145]
+              - paragraph [ref=f2e146]: The good things happening across your website.
+            - generic [ref=f2e147]:
+              - generic [ref=f2e148]:
+                - strong [ref=f2e154]: "4"
+                - generic [ref=f2e155]: Total products
+              - generic [ref=f2e156]:
+                - strong [ref=f2e163]: "4"
+                - generic [ref=f2e164]: Visible on your site
+              - generic [ref=f2e165]:
+                - strong [ref=f2e173]: Modern Blue
+                - generic [ref=f2e174]: Current draft theme
+          - generic [ref=f2e175]:
+            - generic [ref=f2e177]:
+              - heading "Quick edits" [level=2] [ref=f2e178]
+              - paragraph [ref=f2e179]: Jump straight to the things you may want to update.
+            - generic [ref=f2e180]:
+              - button "Branding & site details Company name, logo, and SEO details" [ref=f2e181] [cursor=pointer]:
+                - generic [ref=f2e186]:
+                  - strong [ref=f2e187]: Branding & site details
+                  - generic [ref=f2e188]: Company name, logo, and SEO details
+              - button "Colors & visual style Brand colors, buttons, and typography" [ref=f2e191] [cursor=pointer]:
+                - generic [ref=f2e199]:
+                  - strong [ref=f2e200]: Colors & visual style
+                  - generic [ref=f2e201]: Brand colors, buttons, and typography
+              - button "Homepage story Hero message and homepage sections" [ref=f2e204] [cursor=pointer]:
+                - generic [ref=f2e211]:
+                  - strong [ref=f2e212]: Homepage story
+                  - generic [ref=f2e213]: Hero message and homepage sections
+              - button "Your collection Add, edit, and publish products" [ref=f2e216] [cursor=pointer]:
+                - generic [ref=f2e222]:
+                  - strong [ref=f2e223]: Your collection
+                  - generic [ref=f2e224]: Add, edit, and publish products
+        - complementary [ref=f2e227]:
+          - generic [ref=f2e228]:
+            - generic [ref=f2e230]:
+              - heading "Your website" [level=2] [ref=f2e231]
+              - paragraph [ref=f2e232]: A little look at the published site.
+            - generic [ref=f2e233]:
+              - generic [ref=f2e234]: a. Atelier & Co.
+              - generic [ref=f2e241]:
+                - strong [ref=f2e242]: Atelier & Co. — Thoughtful Goods
+                - generic [ref=f2e243]: Your latest changes are live
+          - generic [ref=f2e244]:
+            - heading "A gentle reminder" [level=2] [ref=f2e247]
+            - generic [ref=f2e248]:
+              - text: ✳
+              - paragraph [ref=f2e249]: Small updates keep things feeling fresh. Your drafts are safely saved until you choose to publish.
+              - button "Tend to your homepage" [ref=f2e250] [cursor=pointer]
+      - generic [ref=f2e253]:
+        - text: Thoughtfully made with
+        - generic [ref=f2e254]: ✳
+        - text: · Atelier & Co. admin

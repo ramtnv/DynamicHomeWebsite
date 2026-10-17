@@ -1,0 +1,86 @@
+- generic [ref=f9e2]:
+  - banner [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - link "Smoke Test Atelier 1792151083047 home" [ref=f9e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f9e6]: a.
+        - generic [ref=f9e7]: Smoke Test Atelier 1792151083047
+      - button "Open navigation" [ref=f9e8]
+      - link "Shop the collection" [ref=f9e10] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=f9e11]:
+    - generic [ref=f9e12]: Good things, made to last. Free shipping on orders over $100.
+    - generic [ref=f9e16]:
+      - generic [ref=f9e17]:
+        - generic [ref=f9e18]: Made for slower mornings
+        - heading [level=1] [ref=f9e20]:
+          - generic [ref=f9e21]: Make room for
+          - text: what matters.
+        - paragraph [ref=f9e22]: Thoughtful goods for everyday living.
+        - paragraph [ref=f9e23]: A considered collection of home essentials, crafted with honest materials and made to be part of your story for years to come.
+        - generic [ref=f9e24]:
+          - link "Explore the collection" [ref=f9e25] [cursor=pointer]:
+            - /url: /products
+          - link "Our story" [ref=f9e29] [cursor=pointer]:
+            - /url: /about
+      - generic [ref=f9e32]:
+        - img "A calm, warmly lit living space with thoughtful details" [ref=f9e33]
+        - generic [ref=f9e34]:
+          - generic [ref=f9e35]: Living, a little more intentionally
+          - generic [ref=f9e36]: 01 / 04
+        - generic [ref=f9e37]: Thoughtfullymade
+    - generic [ref=f9e42]:
+      - generic [ref=f9e43]: ✳
+      - paragraph [ref=f9e44]:
+        - text: Not more things.
+        - emphasis [ref=f9e45]: Better things.
+      - generic [ref=f9e46]: Objects for everyday rituals,made to feel like they belong.
+    - generic [ref=f9e47]:
+      - generic [ref=f9e48]:
+        - generic [ref=f9e49]:
+          - generic [ref=f9e50]: Little things, thoughtfully made
+          - heading "Considered pieces, made to stay" [level=2] [ref=f9e52]
+          - paragraph [ref=f9e53]: Thoughtful design. Honest materials. Everyday essentials that feel right at home.
+        - link "View everything" [ref=f9e54] [cursor=pointer]:
+          - /url: /products
+      - generic [ref=f9e57]:
+        - heading "Nothing here just yet" [level=3] [ref=f9e61]
+        - paragraph [ref=f9e62]: Try a different search or come back soon for something new.
+    - generic [ref=f9e63]:
+      - img "A little more intention, every day" [ref=f9e65]
+      - generic [ref=f9e66]:
+        - generic [ref=f9e67]: A slower kind of good
+        - heading "A little more intention, every day" [level=2] [ref=f9e69]
+        - paragraph [ref=f9e70]: We believe the best things are made slowly, used often, and loved for a long time.
+        - link "A little about us" [ref=f9e71] [cursor=pointer]:
+          - /url: /about
+      - generic [aria-hidden] [ref=f9e75]: ✳
+    - generic [ref=f9e76]:
+      - generic [ref=f9e77]: Thoughtfully sourced
+      - generic [ref=f9e82]: Made to last
+      - generic [ref=f9e89]: Little details, considered
+    - generic [ref=f9e93]:
+      - generic [ref=f9e94]: Find your everyday favorite
+      - heading [level=2] [ref=f9e95]:
+        - text: A few good things
+        - emphasis [ref=f9e96]: go a long way.
+      - link "Shop the collection" [ref=f9e97] [cursor=pointer]:
+        - /url: /products
+      - generic [ref=f9e101]: ✳
+  - contentinfo [ref=f9e102]:
+    - generic [ref=f9e103]:
+      - generic [ref=f9e104]:
+        - link "Smoke Test Atelier 1792151083047" [ref=f9e105] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=f9e106]: Made with care, for the everyday.
+      - generic [ref=f9e107]:
+        - link "Shop" [ref=f9e108] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=f9e109] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=f9e110] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=f9e111] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=f9e112]: © 2026 Smoke Test Atelier 1792151083047

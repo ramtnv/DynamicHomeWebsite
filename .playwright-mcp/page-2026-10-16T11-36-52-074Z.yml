@@ -1,0 +1,144 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Atelier & Co. home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: a.
+        - generic [ref=e7]: Atelier & Co.
+      - navigation "Main navigation" [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=e10] [cursor=pointer]:
+          - /url: /products
+        - link "About us" [ref=e11] [cursor=pointer]:
+          - /url: /about
+        - link "Contact us" [ref=e12] [cursor=pointer]:
+          - /url: /contact
+      - link "Shop the collection" [ref=e13] [cursor=pointer]:
+        - /url: /products
+        - text: Shop the collection ↗
+  - main [ref=e14]:
+    - generic [ref=e15]: Good things, made to last. Free shipping on orders over $100.
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Made for slower mornings
+        - heading [level=1] [ref=e23]:
+          - generic [ref=e24]: Make room for
+          - text: what matters.
+        - paragraph [ref=e25]: Thoughtful goods for everyday living.
+        - paragraph [ref=e26]: A considered collection of home essentials, crafted with honest materials and made to be part of your story for years to come.
+        - generic [ref=e27]:
+          - link "Explore the collection" [ref=e28] [cursor=pointer]:
+            - /url: /products
+          - link "Our story" [ref=e32] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e35]:
+          - generic [ref=e36]: ✳
+          - generic [ref=e37]: Small batches, big heart.Always made with intention.
+      - generic [ref=e38]:
+        - img "A calm, warmly lit living space with thoughtful details" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: Living, a little more intentionally
+          - generic [ref=e42]: 01 / 04
+        - generic [ref=e43]: Thoughtfullymade
+      - generic [aria-hidden] [ref=e48]: 01 04
+    - generic [ref=e50]:
+      - generic [ref=e51]: ✳
+      - paragraph [ref=e52]:
+        - text: Not more things.
+        - emphasis [ref=e53]: Better things.
+      - generic [ref=e54]: Objects for everyday rituals,made to feel like they belong.
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Little things, thoughtfully made
+          - heading "Considered pieces, made to stay" [level=2] [ref=e60]
+          - paragraph [ref=e61]: Thoughtful design. Honest materials. Everyday essentials that feel right at home.
+        - link "View everything" [ref=e62] [cursor=pointer]:
+          - /url: /products
+      - generic [ref=e65]:
+        - article [ref=e66]:
+          - link "View Quiet Morning Candle" [ref=e67] [cursor=pointer]:
+            - /url: /products/quiet-morning-candle
+            - img "Quiet Morning Candle" [ref=e68]
+          - generic [ref=e73]:
+            - text: Wellbeing
+            - generic [ref=e74]:
+              - link [ref=e75] [cursor=pointer]:
+                - /url: /products/quiet-morning-candle
+                - heading "Quiet Morning Candle" [level=3] [ref=e76]
+              - generic [ref=e77]: $32.00
+            - paragraph [ref=e79]: Warm cedar and soft citrus, poured by hand.
+        - article [ref=e80]:
+          - link "View Oak Catchall Tray" [ref=e81] [cursor=pointer]:
+            - /url: /products/oak-catchall-tray
+            - img "Oak Catchall Tray" [ref=e82]
+          - generic [ref=e87]:
+            - text: Home
+            - generic [ref=e88]:
+              - link [ref=e89] [cursor=pointer]:
+                - /url: /products/oak-catchall-tray
+                - heading "Oak Catchall Tray" [level=3] [ref=e90]
+              - generic [ref=e91]: $38.00
+            - paragraph [ref=e93]: A little landing place for everyday essentials.
+        - article [ref=e94]:
+          - link "View Linen Table Set" [ref=e95] [cursor=pointer]:
+            - /url: /products/linen-table-set
+            - img "Linen Table Set" [ref=e96]
+          - generic [ref=e101]:
+            - text: Textiles
+            - generic [ref=e102]:
+              - link [ref=e103] [cursor=pointer]:
+                - /url: /products/linen-table-set
+                - heading "Linen Table Set" [level=3] [ref=e104]
+              - generic [ref=e105]: $64.00
+            - paragraph [ref=e107]: Washed European linen for long, easy dinners.
+        - article [ref=e108]:
+          - link "View Everyday Ceramic Vase" [ref=e109] [cursor=pointer]:
+            - /url: /products/everyday-ceramic-vase
+            - img "Everyday Ceramic Vase" [ref=e110]
+          - generic [ref=e115]:
+            - text: Home
+            - generic [ref=e116]:
+              - link [ref=e117] [cursor=pointer]:
+                - /url: /products/everyday-ceramic-vase
+                - heading "Everyday Ceramic Vase" [level=3] [ref=e118]
+              - generic [ref=e119]: $48.00
+            - paragraph [ref=e121]: A softly sculpted home for your favorite stems.
+    - generic [ref=e122]:
+      - img "A little more intention, every day" [ref=e124]
+      - generic [ref=e125]:
+        - generic [ref=e126]: A slower kind of good
+        - heading "A little more intention, every day" [level=2] [ref=e128]
+        - paragraph [ref=e129]: We believe the best things are made slowly, used often, and loved for a long time.
+        - link "A little about us" [ref=e130] [cursor=pointer]:
+          - /url: /about
+      - generic [aria-hidden] [ref=e134]: ✳
+    - generic [ref=e135]:
+      - generic [ref=e136]: Thoughtfully sourced
+      - generic [ref=e141]: Made to last
+      - generic [ref=e148]: Little details, considered
+    - generic [ref=e152]:
+      - generic [ref=e153]: Find your everyday favorite
+      - heading [level=2] [ref=e154]:
+        - text: A few good things
+        - emphasis [ref=e155]: go a long way.
+      - link "Shop the collection" [ref=e156] [cursor=pointer]:
+        - /url: /products
+      - generic [ref=e160]: ✳
+  - contentinfo [ref=e161]:
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - link "Atelier & Co." [ref=e164] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=e165]: Made with care, for the everyday.
+      - generic [ref=e166]:
+        - link "Shop" [ref=e167] [cursor=pointer]:
+          - /url: /products
+        - link "Our story" [ref=e168] [cursor=pointer]:
+          - /url: /about
+        - link "Get in touch" [ref=e169] [cursor=pointer]:
+          - /url: /contact
+        - link "Instagram ↗" [ref=e170] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=e171]: © 2026 Atelier & Co.

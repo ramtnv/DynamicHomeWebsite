@@ -1,0 +1,19 @@
+- main [ref=e3]:
+  - link "a. Atelier & Co." [ref=e4] [cursor=pointer]:
+    - /url: /
+    - generic [ref=e5]: a.
+    - text: Atelier & Co.
+  - generic [ref=e6]:
+    - generic [ref=e11]: Private workspace
+    - heading "Welcome back." [level=1] [ref=e12]
+    - paragraph [ref=e13]: Sign in to manage your website.
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: Email address
+        - textbox "Email address" [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]: Password
+        - textbox "Password" [ref=e20]
+      - button "Sign in to dashboard" [ref=e21] [cursor=pointer]
+  - link "Return to the website" [ref=e24] [cursor=pointer]:
+    - /url: /

@@ -1,0 +1,264 @@
+- generic [ref=f2e30]:
+  - complementary [ref=f2e31]:
+    - link "a. Atelier & Co. SUPER ADMIN" [ref=f2e32] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f2e33]: a.
+      - generic [ref=f2e34]:
+        - text: Atelier & Co.
+        - generic [ref=f2e35]: SUPER ADMIN
+    - navigation "Admin navigation" [ref=f2e36]:
+      - generic [ref=f2e37]:
+        - generic [ref=f2e38]: Workspace
+        - button "Overview" [ref=f2e39] [cursor=pointer]
+      - generic [ref=f2e46]:
+        - generic [ref=f2e47]: Website
+        - button "General settings" [ref=f2e48] [cursor=pointer]
+        - button "Theme & appearance" [active] [ref=f2e53] [cursor=pointer]
+      - generic [ref=f2e61]:
+        - generic [ref=f2e62]: Pages
+        - button "Homepage" [ref=f2e63] [cursor=pointer]
+        - button "About us" [ref=f2e70] [cursor=pointer]
+        - button "Contact" [ref=f2e77] [cursor=pointer]
+      - generic [ref=f2e82]:
+        - generic [ref=f2e83]: Commerce
+        - button "Products 4" [ref=f2e84] [cursor=pointer]:
+          - generic [ref=f2e89]: Products
+          - generic [ref=f2e90]: "4"
+    - generic [ref=f2e91]:
+      - generic [ref=f2e97]:
+        - strong [ref=f2e98]: Secure workspace
+        - generic [ref=f2e99]: Only you can make changes
+      - button "Sign out" [ref=f2e100] [cursor=pointer]
+  - generic [ref=f2e104]:
+    - banner [ref=f2e105]:
+      - button "Open navigation" [ref=f2e106]
+      - generic [ref=f2e110]:
+        - text: Workspace
+        - generic [ref=f2e111]: /
+        - strong [ref=f2e112]: Theme & appearance
+      - link "View site" [ref=f2e114] [cursor=pointer]:
+        - /url: /
+    - main [ref=f2e118]:
+      - generic [ref=f2e119]:
+        - generic [ref=f2e120]:
+          - generic [ref=f2e121]: Your little corner of the internet
+          - heading "Theme & appearance" [level=1] [ref=f2e256]
+          - paragraph [ref=f2e123]: Make this part of Atelier & Co. feel just right.
+        - generic [ref=f2e124]:
+          - button "Preview" [ref=f2e125] [cursor=pointer]
+          - button "Save draft" [ref=f2e129] [cursor=pointer]
+      - generic [ref=f2e134]:
+        - generic [ref=f2e135]: You are editing a draft. Changes go live only when published.
+        - button "Publish changes" [ref=f2e137] [cursor=pointer]
+      - generic [ref=f2e257]:
+        - generic [ref=f2e258]:
+          - generic [ref=f2e259]:
+            - generic [ref=f2e261]:
+              - heading "Start with a feeling" [level=2] [ref=f2e262]
+              - paragraph [ref=f2e263]: Pick a palette, then make it your own.
+            - generic [ref=f2e264]:
+              - button [ref=f2e265] [cursor=pointer]:
+                - strong [ref=f2e270]: Light
+              - button [ref=f2e271] [cursor=pointer]:
+                - strong [ref=f2e276]: Dark
+              - button [ref=f2e277] [cursor=pointer]:
+                - strong [ref=f2e282]: Modern Blue
+              - button [ref=f2e285] [cursor=pointer]:
+                - strong [ref=f2e290]: Nature Green
+              - button [ref=f2e291] [cursor=pointer]:
+                - strong [ref=f2e296]: Minimal Neutral
+              - button [ref=f2e297] [cursor=pointer]:
+                - strong [ref=f2e302]: Warm Terracotta
+              - button [ref=f2e303] [cursor=pointer]:
+                - strong [ref=f2e308]: Coastal Blue
+              - button [ref=f2e309] [cursor=pointer]:
+                - strong [ref=f2e314]: Soft Rose
+              - button [ref=f2e315] [cursor=pointer]:
+                - strong [ref=f2e320]: Lavender Mist
+              - button [ref=f2e321] [cursor=pointer]:
+                - strong [ref=f2e326]: Golden Hour
+            - generic [ref=f2e327]:
+              - generic [ref=f2e328]:
+                - generic [ref=f2e329]: Custom theme name
+                - textbox "Custom theme name" [ref=f2e330]:
+                  - /placeholder: My custom palette
+                  - text: Modern Blue
+              - button "Save custom theme" [ref=f2e331] [cursor=pointer]
+          - generic [ref=f2e336]:
+            - generic [ref=f2e338]:
+              - heading "Your color palette" [level=2] [ref=f2e339]
+              - paragraph [ref=f2e340]: Every color is used consistently across your whole website.
+            - generic [ref=f2e341]:
+              - generic [ref=f2e342] [cursor=pointer]:
+                - textbox "Primary brand color" [ref=f2e344]: "#315b87"
+                - generic [ref=f2e345]:
+                  - text: Primary brand
+                  - generic [ref=f2e346]: "#315B87"
+              - generic [ref=f2e347] [cursor=pointer]:
+                - textbox "Soft brand color" [ref=f2e349]: "#dce8f2"
+                - generic [ref=f2e350]:
+                  - text: Soft brand
+                  - generic [ref=f2e351]: "#DCE8F2"
+              - generic [ref=f2e352] [cursor=pointer]:
+                - textbox "Accent color" [ref=f2e354]: "#d17b58"
+                - generic [ref=f2e355]:
+                  - text: Accent
+                  - generic [ref=f2e356]: "#D17B58"
+              - generic [ref=f2e357] [cursor=pointer]:
+                - textbox "Page background color" [ref=f2e359]: "#f5f4ef"
+                - generic [ref=f2e360]:
+                  - text: Page background
+                  - generic [ref=f2e361]: "#F5F4EF"
+              - generic [ref=f2e362] [cursor=pointer]:
+                - textbox "Card background color" [ref=f2e364]: "#ffffff"
+                - generic [ref=f2e365]:
+                  - text: Card background
+                  - generic [ref=f2e366]: "#FFFFFF"
+              - generic [ref=f2e367] [cursor=pointer]:
+                - textbox "Heading text color" [ref=f2e369]: "#202823"
+                - generic [ref=f2e370]:
+                  - text: Heading text
+                  - generic [ref=f2e371]: "#202823"
+              - generic [ref=f2e372] [cursor=pointer]:
+                - textbox "Body text color" [ref=f2e374]: "#515b54"
+                - generic [ref=f2e375]:
+                  - text: Body text
+                  - generic [ref=f2e376]: "#515B54"
+              - generic [ref=f2e377] [cursor=pointer]:
+                - textbox "Muted text color" [ref=f2e379]: "#626b64"
+                - generic [ref=f2e380]:
+                  - text: Muted text
+                  - generic [ref=f2e381]: "#626B64"
+              - generic [ref=f2e382] [cursor=pointer]:
+                - textbox "Link color" [ref=f2e384]: "#315b87"
+                - generic [ref=f2e385]:
+                  - text: Link
+                  - generic [ref=f2e386]: "#315B87"
+              - generic [ref=f2e387] [cursor=pointer]:
+                - textbox "Link hover color" [ref=f2e389]: "#25486d"
+                - generic [ref=f2e390]:
+                  - text: Link hover
+                  - generic [ref=f2e391]: "#25486D"
+              - generic [ref=f2e392] [cursor=pointer]:
+                - textbox "Button background color" [ref=f2e394]: "#315b87"
+                - generic [ref=f2e395]:
+                  - text: Button background
+                  - generic [ref=f2e396]: "#315B87"
+              - generic [ref=f2e397] [cursor=pointer]:
+                - textbox "Button text color" [ref=f2e399]: "#ffffff"
+                - generic [ref=f2e400]:
+                  - text: Button text
+                  - generic [ref=f2e401]: "#FFFFFF"
+              - generic [ref=f2e402] [cursor=pointer]:
+                - textbox "Button hover color" [ref=f2e404]: "#25486d"
+                - generic [ref=f2e405]:
+                  - text: Button hover
+                  - generic [ref=f2e406]: "#25486D"
+              - generic [ref=f2e407] [cursor=pointer]:
+                - textbox "Border color" [ref=f2e409]: "#e3e5df"
+                - generic [ref=f2e410]:
+                  - text: Border
+                  - generic [ref=f2e411]: "#E3E5DF"
+              - generic [ref=f2e412] [cursor=pointer]:
+                - textbox "Header color" [ref=f2e414]: "#f5f4ef"
+                - generic [ref=f2e415]:
+                  - text: Header
+                  - generic [ref=f2e416]: "#F5F4EF"
+              - generic [ref=f2e417] [cursor=pointer]:
+                - textbox "Navigation color" [ref=f2e419]: "#626b64"
+                - generic [ref=f2e420]:
+                  - text: Navigation
+                  - generic [ref=f2e421]: "#626B64"
+              - generic [ref=f2e422] [cursor=pointer]:
+                - textbox "Footer color" [ref=f2e424]: "#202823"
+                - generic [ref=f2e425]:
+                  - text: Footer
+                  - generic [ref=f2e426]: "#202823"
+              - generic [ref=f2e427] [cursor=pointer]:
+                - textbox "Footer text color" [ref=f2e429]: "#d2d8d3"
+                - generic [ref=f2e430]:
+                  - text: Footer text
+                  - generic [ref=f2e431]: "#D2D8D3"
+          - generic [ref=f2e432]:
+            - generic [ref=f2e434]:
+              - heading "Type & shape" [level=2] [ref=f2e435]
+              - paragraph [ref=f2e436]: Choose comfortable, readable typography for every screen.
+            - generic [ref=f2e437]:
+              - generic [ref=f2e438]:
+                - generic [ref=f2e439]: Body font
+                - combobox "Body font" [ref=f2e440]:
+                  - option "Inter"
+                  - option "DM Sans"
+                  - option "Manrope"
+                  - option "Lato"
+                  - option "Open Sans"
+                  - option "Source Sans 3"
+                  - option "Roboto"
+                  - option "Arial" [selected]
+                  - option "system-ui"
+              - generic [ref=f2e441]:
+                - generic [ref=f2e442]: Heading font
+                - combobox "Heading font" [ref=f2e443]:
+                  - option "Playfair Display" [selected]
+                  - option "Lora"
+                  - option "Merriweather"
+                  - option "Georgia"
+                  - option "Inter"
+                  - option "DM Sans"
+                  - option "Manrope"
+              - generic [ref=f2e444]:
+                - generic [ref=f2e445]: Button & card shape
+                - combobox "Button & card shape" [ref=f2e446]:
+                  - option "Square"
+                  - option "Soft corners"
+                  - option "Rounded"
+                  - option "Very rounded" [selected]
+                  - option "Pill-like"
+              - generic [ref=f2e447]:
+                - generic [ref=f2e448]: Card shadow
+                - combobox "Card shadow" [ref=f2e449]:
+                  - option "No shadow"
+                  - option "Soft" [selected]
+                  - option "Lifted"
+              - generic [ref=f2e450]:
+                - generic [ref=f2e451]: Text size
+                - combobox "Text size Small labels stay at least 12px for readability." [ref=f2e452]:
+                  - option "Standard · 16px"
+                  - option "Comfortable · 18px"
+                  - option "Large · 19px" [selected]
+                  - option "Extra large · 21px"
+                  - option "Very large · 22px"
+                  - option "Maximum · 24px"
+                - generic [ref=f2e453]: Small labels stay at least 12px for readability.
+              - generic [ref=f2e454]:
+                - generic [ref=f2e455]:
+                  - text: Content width
+                  - strong [ref=f2e456]: 1600px
+                - slider "Content width 1600px" [ref=f2e457]: "1600"
+              - generic [ref=f2e458]:
+                - generic [ref=f2e459]:
+                  - text: Section spacing
+                  - strong [ref=f2e460]: 104px
+                - slider "Section spacing 104px" [ref=f2e461]: "104"
+        - complementary [ref=f2e462]:
+          - generic [ref=f2e463]:
+            - generic [ref=f2e465]:
+              - heading "Live preview" [level=2] [ref=f2e466]
+              - paragraph [ref=f2e467]: Your draft style, right here.
+            - generic [ref=f2e468]:
+              - generic [ref=f2e469]:
+                - strong [ref=f2e470]: A considered living
+                - generic [ref=f2e471]: HOME PRODUCTS ABOUT
+              - generic [ref=f2e472]:
+                - text: MADE FOR THE EVERYDAY
+                - heading "Make room for what matters." [level=3] [ref=f2e473]: Make room forwhat matters.
+                - paragraph [ref=f2e474]: A few good things go a long way.
+                - button "Explore the collection" [ref=f2e475]
+                - generic [ref=f2e478]:
+                  - generic [ref=f2e479]: Thoughtfully made
+                  - generic [ref=f2e480]: Considered pieces for everyday rituals.
+            - paragraph [ref=f2e481]: Your changes are checked against WCAG AA contrast before saving.
+      - generic [ref=f2e253]:
+        - text: Thoughtfully made with
+        - generic [ref=f2e254]: ✳
+        - text: · Atelier & Co. admin

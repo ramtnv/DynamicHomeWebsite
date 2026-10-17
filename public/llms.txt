@@ -1,0 +1,6 @@
+# Business website
+
+- [Home](/): Company introduction and featured content.
+- [Products](/products): Browse available products.
+- [About us](/about): Company background and mission.
+- [Contact us](/contact): Contact information and inquiry form.
